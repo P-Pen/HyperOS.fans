@@ -1,10 +1,10 @@
 <template>
-	<title v-if="locale == 'en'">
-		{{ $t("rompage") }} {{ data['name'][locale] }} - HyperOS.fans
-	</title>
-	<title v-else>
-		{{ data['name'][locale] }} {{ $t("rompage") }} - HyperOS.fans
-	</title>
+        <title v-if="locale == 'en'">
+                {{ $t("rompage") }} {{ data['name'][locale] }} - HyperOS.fans 镜像
+        </title>
+        <title v-else>
+                {{ data['name'][locale] }} {{ $t("rompage") }} - HyperOS.fans 镜像
+        </title>
 	<v-app>
 		<Nav></Nav>
 		<Space></Space>

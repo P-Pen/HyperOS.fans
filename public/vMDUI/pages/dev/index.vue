@@ -1,5 +1,5 @@
 <template>
-  <title>{{ $t('devtitle') }} - HyperOS.fans</title>
+  <title>{{ $t('devtitle') }} - HyperOS.fans 镜像</title>
   <mdui-card style="width: 99vw;padding-bottom: 20px;align-items: center;margin-top:1vw;margin-right:1vw">
     <h3 style="padding-left:10px;">
       <span v-for="{ bigVer, latest, weeks } in data.HyperOS" style="padding-left:10px">{{ bigVer }}

@@ -1,7 +1,7 @@
 <template></template>
 <script setup lang="ts">
 useHead({
-  title: 'HyperOS.fans',
+  title: 'HyperOS.fans 镜像',
   link: [
     {
       rel: "icon",

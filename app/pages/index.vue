@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <span v-if="home['recent']['developing'] == 'no'">
-      <title>{{ $t('hometitle') }} - HyperOS.fans</title>
+      <title>{{ $t('hometitle') }} - HyperOS.fans 镜像</title>
       <Nav></Nav>
       <v-card elevation="2">
         <v-card-item>
@@ -77,7 +77,7 @@
       <Footer></Footer>
     </span>
     <span v-else>
-      <title>{{ $t('dev_title') }} - HyperOS.fans</title>
+      <title>{{ $t('dev_title') }} - HyperOS.fans 镜像</title>
       <div class="developing">{{ $t('developing') }}</div>
     </span>
   </v-app>

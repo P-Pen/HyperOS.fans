@@ -1,5 +1,5 @@
 export default({
-  title: 'HyperOS.fans',
+  title: 'HyperOS.fans 镜像',
   ssr: true,
   target: "static",
   components: true,

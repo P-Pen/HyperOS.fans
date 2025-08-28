@@ -1,6 +1,6 @@
 <template>
-  <title v-if="locale == 'en'">{{ $t('rompage') }} {{ data.name[locale] }} - HyperOS.fans</title>
-  <title v-else>{{ data.name[locale] }} {{ $t('rompage') }} - HyperOS.fans</title>
+  <title v-if="locale == 'en'">{{ $t('rompage') }} {{ data.name[locale] }} - HyperOS.fans 镜像</title>
+  <title v-else>{{ data.name[locale] }} {{ $t('rompage') }} - HyperOS.fans 镜像</title>
   <mdui-card style="width: 99vw;height: 170px;align-items: center;margin-top:1vw;margin-right:1vw">
     <p style="padding-left:10px;">{{ $t('name') }} ： <span>{{ data.name[locale] }}</span></p>
     <p style="padding-left:10px;">{{ $t('codename') }} ： <span>{{ data.device }}</span></p>
