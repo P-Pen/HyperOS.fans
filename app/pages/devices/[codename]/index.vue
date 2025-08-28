@@ -95,6 +95,6 @@ export default {
 const route = useRoute();
 const {locale} = useI18n();
 const url =
-	"https://data.hyperos.fans/devices/" + route.params.codename.toLowerCase() + ".json";
+        "https://hyposdt.pen-net.cn/devices/" + route.params.codename.toLowerCase() + ".json";
 const { data } = await useFetch(url);
 </script>

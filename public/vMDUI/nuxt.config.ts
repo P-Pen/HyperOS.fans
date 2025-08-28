@@ -34,6 +34,6 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://www.hyperos.fans',
+    url: 'https://hyperos.pen-net.cn',
   }
 })

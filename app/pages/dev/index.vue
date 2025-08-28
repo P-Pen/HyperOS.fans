@@ -28,6 +28,6 @@ export default {
 </script>
 <script setup>
 const { locale, locales } = useI18n()
-const url = "https://data.hyperos.fans/dev.json"
+const url = "https://hyposdt.pen-net.cn/dev.json"
 const { data } = await useFetch(url)
 </script>

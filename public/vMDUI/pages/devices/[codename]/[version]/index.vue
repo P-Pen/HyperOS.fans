@@ -8,7 +8,7 @@
 <script setup>
 const route = useRoute()
 const {locale} = useI18n();
-const url = "https://data.hyperos.fans/devices/" + route.params.codename + ".json"
+const url = "https://hyposdt.pen-net.cn/devices/" + route.params.codename + ".json"
 const { data } = await useFetch(url)
 
 </script>

@@ -33,9 +33,9 @@
 
 <script setup>
 const {locale} = useI18n();
-const devices = "https://data.hyperos.fans/devices.json"
-const index = "https://data.hyperos.fans/index.json"
+const devices = "https://hyposdt.pen-net.cn/devices.json"
+const index = "https://hyposdt.pen-net.cn/index.json"
 const { data:device } = await useFetch(devices)
 const { data:home } = await useFetch(index)
-const { data:latest } = await useFetch('https://data.hyperos.fans/dev/'+home.value.latest+'.json')
+const { data:latest } = await useFetch('https://hyposdt.pen-net.cn/dev/'+home.value.latest+'.json')
 </script>

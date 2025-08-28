@@ -5,7 +5,7 @@
   <div v-if="$device.isDesktopOrTablet">
     <v-app-bar :elevation="2" rounded>
       <v-app-bar-title>
-        <b>Hyper<span class="text-HyperBlue">OS</span>.fans</b>
+        <b>Hyper<span class="text-HyperBlue">OS</span>.fans <span class="text-HyperBlue">镜像</span></b>
       </v-app-bar-title>
       <v-tabs v-model="tab" stacked class="text-HyperBlue NavLinks">
         <a v-for="(item, i) in items" :key="i" :value="item" :href="('/' + locale + '/' + item['path'])">
@@ -36,7 +36,7 @@
   <div v-else>
     <v-app-bar elevation="2" rounded>
       <v-btn icon="mdi-menu" @click.stop="drawer = !drawer"></v-btn>
-      <v-app-bar-title><b>Hyper<span class="text-HyperBlue">OS</span>.fans</b></v-app-bar-title>
+      <v-app-bar-title><b>Hyper<span class="text-HyperBlue">OS</span>.fans <span class="text-HyperBlue">镜像</span></b></v-app-bar-title>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer">
       <v-list>
@@ -100,8 +100,8 @@ const availableLocales = computed(() => {
 let url = useRequestURL()
 const route = useRoute()
 let domain = url.hostname
-if (domain == "https://www.hyperos.fans") {
-  url = 'https://hyperos.fans' + route.path
+if (domain == "https://www.hyperos.pen-net.cn") {
+  url = 'https://hyperos.pen-net.cn' + route.path
   await navigateTo(url, { external: true })
 }
 

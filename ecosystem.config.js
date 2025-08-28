@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'HyperOS.fans',
       port: '80',
-      host: 'hyperos.fans',
+      host: 'hyperos.pen-net.cn',
       exec_mode: 'cluster',
       instances: 'max',
       script: './.output/server/index.mjs'

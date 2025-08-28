@@ -13,7 +13,7 @@
 								<v-col v-for="devices in alldevices['devices']">
 									<v-card class="mx-auto" max-width="600" :href="('/'+locale+'/devices/'+devices['code'])">
 										<v-img
-											:src="'https://data.hyperos.fans/assets/images/' +devices['image']"
+                                                                                        :src="'https://hyposdt.pen-net.cn/assets/images/' +devices['image']"
 											class="align-end"
 											height="200px"
 											style="margin-top:10px;"
@@ -55,6 +55,6 @@ export default {
 </script>
 <script setup>
 const { locale, locales } = useI18n();
-const url = "https://data.hyperos.fans/devices.json";
+const url = "https://hyposdt.pen-net.cn/devices.json";
 const { data } = await useFetch(url);
 </script>

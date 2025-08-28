@@ -13,6 +13,6 @@
 </template>
 <script setup>
 const {locale} = useI18n();
-const url = "https://data.hyperos.fans/devices.json"
+const url = "https://hyposdt.pen-net.cn/devices.json"
 const { data } = await useFetch(url)
 </script>
