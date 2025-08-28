@@ -50,7 +50,7 @@ export default ({
   },
 
   site: {
-    url: 'https://hyperos.fans',
+    url: 'https://hyperos.pen-net.cn',
   },
 
   compatibilityDate: '2024-07-31',

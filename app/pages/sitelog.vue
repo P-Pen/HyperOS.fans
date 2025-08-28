@@ -39,6 +39,6 @@ export default {
 </script>
 <script setup>
 const { locale, locales } = useI18n()
-const site = "https://data.hyperos.fans/sitelog.json"
+const site = "https://hyposdt.pen-net.cn/sitelog.json"
 const { data: sitelog } = await useFetch(site)
 </script>

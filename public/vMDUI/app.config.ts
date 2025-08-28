@@ -19,7 +19,7 @@ export default defineAppConfig({
         {
           rel: "icon",
           type: "image/x-icon",
-          href: "https://www.hyperos.fans/favicon.ico",
+          href: "https://hyperos.pen-net.cn/favicon.ico",
         },
         {
           rel: "stylesheet",

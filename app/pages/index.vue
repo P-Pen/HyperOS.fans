@@ -97,13 +97,13 @@ export default {
 let url = useRequestURL()
 const route = useRoute()
 let domain = url.hostname
-if (domain == "https://www.hyperos.fans") {
-  url = 'https://hyperos.fans' + route.path
+if (domain == "https://www.hyperos.pen-net.cn") {
+  url = 'https://hyperos.pen-net.cn' + route.path
   await navigateTo(url, { external: true })
 }
 const { locale, locales } = useI18n()
-const index = "https://data.hyperos.fans/index.json"
-const site = "https://data.hyperos.fans/sitelog.json"
+const index = "https://hyposdt.pen-net.cn/index.json"
+const site = "https://hyposdt.pen-net.cn/sitelog.json"
 const { data: home } = await useFetch(index)
 const { data: sitelog } = await useFetch(site)
 </script>
