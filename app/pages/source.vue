@@ -19,9 +19,18 @@
   <v-card elevation="2">
     <v-card-text>
       <h3>2. {{ $t('source-code') }}</h3>
-      <ul style="margin-left:20px;">  
+      <ul style="margin-left:20px;">
         <li>Web : <a href="https://github.com/HegeKen/HyperOS.fans">HyperOS.fans</a></li>
         <li> {{ $t('data') }} <a href="https://github.com/HegeKen/HyperData">HyperData</a></li>
+      </ul>
+    </v-card-text>
+  </v-card>
+  <Space></Space>
+  <v-card elevation="2">
+    <v-card-text>
+      <h3>3. {{ $t('mirror-maintainer') }}</h3>
+      <ul style="margin-left:20px;">
+        <li>{{ $t('mirror-maintainer-is') }} <a href="https://github.com/P-Pen">P-Pen</a></li>
       </ul>
     </v-card-text>
   </v-card>
