@@ -1,5 +1,5 @@
 <template>
-  <title>{{ $t('devlist') }} - HyperOS.fans</title>
+  <title>{{ $t('devlist') }} - HyperOS.fans 镜像</title>
   <mdui-card style="width: 99vw;padding-bottom: 20px;align-items: center;margin-top:1vw;margin-right:1vw">
     <div style="padding-left:10px;padding-top:10px">
       <NuxtLink v-for="{ code, name } in data.mi" :to="('/' + locale + '/devices/' + code)" class="text-HyperBlue" style="margin-right: 5px;">

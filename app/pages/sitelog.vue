@@ -1,5 +1,5 @@
 <template>
-    <title>{{ $t('sitelog') }} - HyperOS.fans</title>
+    <title>{{ $t('sitelog') }} - HyperOS.fans 镜像</title>
   <v-app>
     <Nav></Nav>
     <v-timeline align="start" size="large" side="end">

@@ -1,6 +1,6 @@
 <template>
-  <title v-if="locale == 'en'"> {{ data.title[locale] }} - HyperOS.fans</title>
-  <title v-else>{{ data.title[locale] }} - HyperOS.fans</title>
+  <title v-if="locale == 'en'"> {{ data.title[locale] }} - HyperOS.fans 镜像</title>
+  <title v-else>{{ data.title[locale] }} - HyperOS.fans 镜像</title>
   <mdui-card style="width: 99vw;padding-bottom: 20px;align-items: center;margin-top:1vw;margin-right:1vw">
     <div style="padding-left:10px;padding-top:10px">
       <h3 class="text-HyperBlue">{{ data.title[locale] }}</h3>

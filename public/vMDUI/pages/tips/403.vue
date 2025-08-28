@@ -1,6 +1,6 @@
 <template>
-  <title v-if="locale == 'en'">{{ $t('fix403') }} - HyperOS.fans</title>
-  <title v-else> {{ $t('fix403') }} - HyperOS.fans</title>
+  <title v-if="locale == 'en'">{{ $t('fix403') }} - HyperOS.fans 镜像</title>
+  <title v-else> {{ $t('fix403') }} - HyperOS.fans 镜像</title>
   <mdui-card style="width: 99vw;align-items: center;margin-top:1vw;margin-right:1vw">
     <div style="padding-left:10px;">
       <h3>{{ $t('method1') }}</h3>

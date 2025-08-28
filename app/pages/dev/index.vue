@@ -1,5 +1,5 @@
 <template>
-  <title>{{ $t('devtitle') }} - HyperOS.fans</title>
+  <title>{{ $t('devtitle') }} - HyperOS.fans 镜像</title>
   <v-app>
     <Nav></Nav>
     <v-card v-for="os in data['HyperOS']" elevation="2">

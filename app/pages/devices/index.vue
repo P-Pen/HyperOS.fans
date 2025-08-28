@@ -1,5 +1,5 @@
 <template>
-  <title>{{ $t('devlist') }} - HyperOS.fans</title>
+  <title>{{ $t('devlist') }} - HyperOS.fans 镜像</title>
 		<v-app>
 			<Nav></Nav>
 			<v-expansion-panels variant="accordion" v-model="panel">

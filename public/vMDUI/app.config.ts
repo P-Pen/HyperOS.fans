@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  title: 'HyperOS.fans',
+  title: 'HyperOS.fans 镜像',
   css: ['mdui.css', '~/assets/main.css'],
   ssr: true,
   target: "static",

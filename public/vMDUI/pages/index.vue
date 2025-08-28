@@ -1,5 +1,5 @@
 <template>
-  <title>{{ $t('hometitle') }} - HyperOS.fans</title>
+  <title>{{ $t('hometitle') }} - HyperOS.fans 镜像</title>
   <mdui-card style="width: 99vw;padding-bottom: 20px;align-items: center;margin-top:1vw;margin-right:1vw">
     <h3 style="padding-left:10px;">{{ $t('sitev') }}<span class="text-HyperBlue">{{ home.siteVer }}</span></h3>
     <h3 style="padding-left:10px;">{{ $t('supported') }}</h3><span v-for="({ code, name },index) in device.mi" style="padding-left:10px;text-indent: 20px;">
