@@ -11,7 +11,7 @@
     </v-footer>
     <!-- Mobile Disclaimer -->
   </div>
-  <Analystics></Analystics>
+  <HeadResources></HeadResources>
 </template>
 
 <script>

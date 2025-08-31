@@ -65,7 +65,7 @@
     </div>
   <Disclamier></Disclamier>
   <Nav></Nav>
-  <Analystics></Analystics>
+  <HeadResources></HeadResources>
   <br /><br /><br />
 </template>
 <script setup>

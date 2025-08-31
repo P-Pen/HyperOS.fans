@@ -41,7 +41,7 @@
   </div>
   <Disclamier></Disclamier>
   <Nav></Nav>
-  <Analystics></Analystics>
+  <HeadResources></HeadResources>
 </template>
 <script setup>
 const route = useRoute()

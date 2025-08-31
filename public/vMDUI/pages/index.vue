@@ -26,7 +26,7 @@
   </mdui-card>
   
   <Disclamier></Disclamier>
-  <Analystics></Analystics>
+  <HeadResources></HeadResources>
   <Nav></Nav>
   <br /><br /><br />
 </template>
