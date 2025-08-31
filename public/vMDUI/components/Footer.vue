@@ -5,7 +5,7 @@
   <div v-else>
 
   </div>
-  <Analystics></Analystics>
+  <HeadResources></HeadResources>
 </template>
 <script setup>
 </script>
